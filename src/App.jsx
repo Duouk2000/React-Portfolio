@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   console.log('Rendering App component');
   return (
-    <Router>
+    <Router>      
       <div>
         <CustomNavbar />
         <Routes>
