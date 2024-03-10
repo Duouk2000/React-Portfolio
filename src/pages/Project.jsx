@@ -1,33 +1,24 @@
 import React from 'react';
+import { Card, Button } from 'react-bootstrap';
 
-function Project() {
+function Project({ projectData }) {
+  const { title, deployedLink, githubLink, image, text } = projectData;
+
   return (
-    <div>      
-      <h2>Literary-Lounge</h2>
-        <h5>GitHub: https://github.com/Duouk2000/Literary-Lounge</h5>
-        <h5>Deployed Website: https://duouk2000.github.io/Literary-Lounge</h5>
-        
-      <h2>Weather-Dashboard</h2>
-        <h5>GitHub: https://github.com/Duouk2000/Weather-Dashboard</h5>
-        <h5>Deployed Website: https://duouk2000.github.io/Weather-Dashboard</h5>
-      
-      <h2>Workday-Calendar</h2>
-        <h5>GitHub: https://github.com/Duouk2000/Workday-Calendar</h5>
-        <h5>Deployed Website: https://duouk2000.github.io/Workday-Calendar/</h5>
-
-      <h2>JS-Code-Quiz</h2>
-        <h5>GitHub: https://github.com/Duouk2000/JS-Code-Quiz</h5>
-        <h5>Deployed Website: https://duouk2000.github.io/JS-Code-Quiz</h5>
-
-      <h2>Secure-Password-Generator</h2>
-        <h5>GitHub: https://github.com/Duouk2000/Secure-Password-Generator</h5>
-        <h5>Deployed Website: https://duouk2000.github.io/Secure-Password-Generator</h5>
-
-      <h2>Team-Profile-Generator</h2>
-        <h5>GitHub: https://github.com/Duouk2000/Team-Profile-Generator</h5>
-        <h5>Deployed Website: https://github.com/Duouk2000/Team-Profile-Generator</h5>
-    </div>
+    <Card style={{ width: '100%' }}>
+      <Card.Img variant="top" src={`/images/${image}`} alt={`${title} Screenshot`} />
+      <Card.Body>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{text}</Card.Text>
+        <Button variant="primary" href={githubLink} target="_blank" rel="noopener noreferrer">
+          GitHub
+        </Button>
+        <Button variant="success" href={deployedLink} target="_blank" rel="noopener noreferrer">
+          Deployed Website
+        </Button>
+      </Card.Body>
+    </Card>
   );
 }
 
-export default Project
+export default Project;
