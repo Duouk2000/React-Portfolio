@@ -8,7 +8,7 @@ function CustomNavbar() {
   return (
     <Navbar expand="lg" bg="success" variant="dark">
       <Container>
-        <Navbar.Brand as={Link} to="/home">Portfolio</Navbar.Brand>
+        <Navbar.Brand>Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />        
         <Nav className="me-auto">
           <Nav.Link as={Link} to="/home">Home</Nav.Link>

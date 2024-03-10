@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "Literary-Lounge",
+      "deployedLink": "https://duouk2000.github.io/Literary-Lounge",
+      "githubLink": "https://github.com/Duouk2000/Literary-Lounge",
+      "text" : "Short text about my Literary-Lounge Group Project.",
+      "image": "literary-lounge-screenshot.png"
+    },
+    {
+      "id": 2,
+      "title": "Weather-Dashboard",
+      "deployedLink": "https://duouk2000.github.io/Weather-Dashboard",
+      "githubLink": "https://github.com/Duouk2000/Weather-Dashboard",
+      "text" : "Short text about my Weather-Dashboard app.",
+      "image": "weather-dashboard-screenshot.jpg"
+    },
+    {
+      "id": 3,
+      "title": "JS-Code-Quiz",
+      "deployedLink": "https://duouk2000.github.io/JS-Code-Quiz",
+      "githubLink": "https://github.com/Duouk2000/JS-Code-Quiz",
+      "text" : "Short text about my JS-Code-Quiz app.",
+      "image": "js-code-quiz-screenshot.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Secure-Password-Generator",
+      "deployedLink": "https://duouk2000.github.io/Secure-Password-Generator",
+      "githubLink": "https://github.com/Duouk2000/Secure-Password-Generator",
+      "text" : "Short text about my Secure-Password-Generator app.",
+      "image": "secure-password-generator-screenshot.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Workday-Calendar",
+      "deployedLink": "https://duouk2000.github.io/Workday-Calendar/",
+      "githubLink": "https://github.com/Duouk2000/Workday-Calendar",
+      "text" : "Short text about my Workday-Calendar app",
+      "image": "workday-calendar-screenshot.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Team-Profile-Generator",
+      "deployedLink": "https://github.com/Duouk2000/Team-Profile-Generator",
+      "githubLink": "https://github.com/Duouk2000/Team-Profile-Generator",
+      "text" : "Short text about my Team-Profile-Generator app",
+      "image": "team-profile-generator-screenshot.jpg"
+    }
+  ]
+  
