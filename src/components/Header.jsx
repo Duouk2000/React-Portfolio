@@ -11,7 +11,7 @@ function CustomNavbar() {
         <Navbar.Brand>Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />        
         <Nav className="me-auto">
-          <Nav.Link as={Link} to="/home">Home</Nav.Link>
+          <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
           <Nav.Link as={Link} to="/contact">Contact Me</Nav.Link>
         </Nav>        
