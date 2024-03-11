@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function CustomNavbar() {
   return (
-    <Navbar expand="lg" bg="success" variant="dark">
+    <Navbar expand="lg" bg="success" variant="dark" className="custom-navbar">
       <Container>
         <Navbar.Brand>Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />        

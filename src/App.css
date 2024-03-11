@@ -2,3 +2,37 @@ body {
   background-color: #f2f2f2 !important;
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 7vh;  
+}
+
+.left-section {
+  margin-bottom: 20px;
+}
+
+.right-section {
+  margin-bottom: 20px;
+}
+
+.bottom-section {
+  max-width: 1100px;
+  text-align: center;
+}
+
+.project-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.custom-navbar {
+  margin-bottom: 10px;
+}
+
+.card-body {
+  background-color: white;
+}

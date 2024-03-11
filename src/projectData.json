@@ -4,7 +4,7 @@
       "title": "Literary-Lounge",
       "deployedLink": "https://duouk2000.github.io/Literary-Lounge",
       "githubLink": "https://github.com/Duouk2000/Literary-Lounge",
-      "text" : "Short text about my Literary-Lounge Group Project.",
+      "text" : "My first project with group members",
       "image": "literary-lounge-screenshot.png"
     },
     {
@@ -12,7 +12,7 @@
       "title": "Weather-Dashboard",
       "deployedLink": "https://duouk2000.github.io/Weather-Dashboard",
       "githubLink": "https://github.com/Duouk2000/Weather-Dashboard",
-      "text" : "Short text about my Weather-Dashboard app.",
+      "text" : "This app tacks the weather based on your input",
       "image": "weather-dashboard-screenshot.jpg"
     },
     {
@@ -20,7 +20,7 @@
       "title": "JS-Code-Quiz",
       "deployedLink": "https://duouk2000.github.io/JS-Code-Quiz",
       "githubLink": "https://github.com/Duouk2000/JS-Code-Quiz",
-      "text" : "Short text about my JS-Code-Quiz app.",
+      "text" : "Test your Javascript knowledge with this quiz",
       "image": "js-code-quiz-screenshot.jpg"
     },
     {
@@ -28,7 +28,7 @@
       "title": "Secure-Password-Generator",
       "deployedLink": "https://duouk2000.github.io/Secure-Password-Generator",
       "githubLink": "https://github.com/Duouk2000/Secure-Password-Generator",
-      "text" : "Short text about my Secure-Password-Generator app.",
+      "text" : "Generates a secure password following user input",
       "image": "secure-password-generator-screenshot.jpg"
     },
     {
@@ -36,7 +36,7 @@
       "title": "Workday-Calendar",
       "deployedLink": "https://duouk2000.github.io/Workday-Calendar/",
       "githubLink": "https://github.com/Duouk2000/Workday-Calendar",
-      "text" : "Short text about my Workday-Calendar app",
+      "text" : "Organise your day with this app",
       "image": "workday-calendar-screenshot.jpg"
     },
     {
@@ -44,7 +44,7 @@
       "title": "Team-Profile-Generator",
       "deployedLink": "https://github.com/Duouk2000/Team-Profile-Generator",
       "githubLink": "https://github.com/Duouk2000/Team-Profile-Generator",
-      "text" : "Short text about my Team-Profile-Generator app",
+      "text" : "Enter team information and generate a html file",
       "image": "team-profile-generator-screenshot.jpg"
     }
   ]

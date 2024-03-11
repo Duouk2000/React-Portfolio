@@ -3,8 +3,8 @@ import React from 'react';
 function Contact() {
   const containerStyle = {
     textAlign: 'center',
-    padding: '20px',
-    margin: '0 auto',
+    padding: '7vh',
+    margin: '0 auto',    
   };
 
   const linkStyle = {
