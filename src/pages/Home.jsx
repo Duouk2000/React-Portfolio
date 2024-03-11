@@ -5,7 +5,7 @@ import '../App.css';
 function Home() {
   return (
     <Container className="home-container">
-      <div className="left-section">
+      <div className="top-section">
         <Card.Img
           variant="top"
           src="/images/avatar.jpg"
@@ -13,7 +13,7 @@ function Home() {
           style={{ width: '200px', height: '200px', objectFit: 'cover', borderRadius: '50%' }}
         />
       </div>
-      <div className="right-section">
+      <div className="middle-section">
         <h1>Andrew Sinkinson</h1>
         <h2>Portfolio Page</h2>
       </div>
